@@ -33,6 +33,12 @@ body{
     opacity: 0.9;
     
 }
+.card-body{
+    opacity: 0.8;
+   
+}
+
+
 .fa{
     color:seagreen;
 }
@@ -40,4 +46,10 @@ body{
     background-color: #fff;
     color:seagreen;
     padding-top:100px;
+}
+#signin-section{
+    background-color:white;
+    color:black;
+    padding-top:150px;
+    padding-bottom:150px;
 }
