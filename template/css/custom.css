@@ -1,35 +1,55 @@
 body{
-    background: rgb(1, 44, 33);
+    background: rgb(0, 10, 5);
     color: #fff;
+    
 }
 .navbar{
     border-bottom: rgb(46,139,87) 3px solid;
-    opacity: 0.5;
+   
 }
 .color{
     color:rgb(46,139,87);
 }
 #home-section{
     background:url('../images/center2.jpg')no-repeat;
-    min-height:600px;
+    min-height:800px;
     background-size: cover;
     background-attachment: fixed;
 }
 .dark-overlay{
-background-color: rgba(8, 1, 1, 0.5);
-position:absolute;
-top:0;
-left:0;
-width:100%;
-
-min-height: 600px;  
-}
+    background-color: rgba(8, 1, 1, 0.5);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    
+    min-height: 800px;  
+    }
 .home-inner{
     padding-top:150px;
+    padding-bottom:150px;
 }
 .card-body{
     opacity: 0.9;
+    
 }
+.card-body{
+    opacity: 0.8;
+   
+}
+
+
 .fa{
     color:seagreen;
+}
+#contact-section{
+    background-color: #fff;
+    color:seagreen;
+    padding-top:100px;
+}
+#signin-section{
+    background-color:white;
+    color:black;
+    padding-top:150px;
+    padding-bottom:150px;
 }
