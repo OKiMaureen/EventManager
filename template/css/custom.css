@@ -9,3 +9,27 @@ body{
 .color{
     color:rgb(46,139,87);
 }
+#home-section{
+    background:url('../images/center2.jpg')no-repeat;
+    min-height:600px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dark-overlay{
+background-color: rgba(8, 1, 1, 0.5);
+position:absolute;
+top:0;
+left:0;
+width:100%;
+
+min-height: 600px;  
+}
+.home-inner{
+    padding-top:150px;
+}
+.card-body{
+    opacity: 0.9;
+}
+.fa{
+    color:seagreen;
+}
