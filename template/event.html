@@ -32,13 +32,12 @@
               <li class="nav-item">
                 <a class="nav-link " href="#my-event-section">My Event</a>
               </li>
-              <button type="submit" class="btn btn-success">Sign Out</button>
-              
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-controucl mr-sm-2" type="search" placeholder="Search Center" aria-label="Search">
                 <button class="btn btn-outline-scess my-2 my-sm-0" type="submit">Search</button>
             </form>
+            <button type="submit" class="text-success ml-5 mr-5">Sign Out</button>
           </div>
         </div>
       </nav>
@@ -50,7 +49,9 @@
             <div class="container">
               <div class="row">
                   <div class="col-md-6 mx-auto">
-                      <h4 class="text-center">Create New Event</h4>
+                      <h4 class="text-center text-success">Create New Event</h4>
+                      
+                      <!--form-->
                       <form>
                           <div class="form-group">
                               <label for="eventName">Event Name</label>
@@ -122,21 +123,63 @@
                           <button type="submit" class="btn btn-success">Submit</button>
                         </form>
                       
-                  </div>      
+                  </div> 
+                 
               </div>
               
             </div>
           </section>
        
-
+          
+        
         <!--my-event-section-->
         <section id="my-event-section">
-        </section>
-      
-       
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-6 mx-auto">
+                      <h3 class="text-center">My Events</h3>
+                      <hr>
+                      
+                      <!--cards-->
+                      <div class="card">
+                          <h4 class="card-header text-success">John and Mary Wedding</h4>
+                          <div class="card-body">
+                            <h3 class="card-title text-success">Social Event</h3>
+                            <p class="card-text text-success">Joyous wedding ceremony of Mary and John.</p>
+                            <p class="card-text text-success">Lagos.<a href="#"class="text-success">View more.</a></p>
+                            <a href="#" class="btn btn-success">Modify</a>
+                            <a href="#" class="btn btn-success">Delete</a>
+                          </div>
+                        </div>
+                      <hr>
+                      <div class="card">
+                          <h4 class="card-header text-success">Andela Conference</h4>
+                          <div class="card-body">
+                            <h3 class="card-title text-success">Business Event</h3>
+                            <p class="card-text text-success">Andela annual conference tagged "The future" to equip and train employess on using latest technologies.</p>
+                            <p class="card-text text-success">Lagos.<a href="#"class=" text-success">View more.</a></p>
+                            <a href="#" class="btn btn-success">Modify</a>
+                            <a href="#" class="btn btn-success">Delete</a>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="card">
+                            <h4 class="card-header text-success">Glorious church praise consert</h4>
+                            <div class="card-body">
+                              <h3 class="card-title text-success">Religious Event</h3>
+                              <p class="card-text text-success">a praise concert to lead people to Godgo.</p>
+                              <p class="card-text text-success">Lagos.<a href="#"class="text-success">View more.</a></p>
+                              <a href="#" class="btn btn-success">Modify</a>
+                              <a href="#" class="btn btn-success">Delete</a>
+                            </div>
+                          </div>
+                    </div>      
+                 </div>
+              </div>
+          </section>
           <footer class="col-md-12" style="margin-top:10px;">
-              <div><h5>copyright@EventManager 2017</h5></div>
-            </footer>
+            <div><h5>copyright@EventManager 2017</h5></div>
+          </footer>
     
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
