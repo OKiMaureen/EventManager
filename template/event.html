@@ -1,194 +1,208 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>EventManager...We Plan...We Deliver</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!--custom css-->
-        <link rel="stylesheet" href="css/custom.css">
-        <!--font awesome-->
-        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        
-    </head>
-    <body id="home">
-        
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="mainNav"style="background-color:seagreen">
-        <div class="container">
-          <a class="navbar-brand " href="#home">EventManager</a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link " href="#home">Create Event</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#my-event-section">My Event</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-controucl mr-sm-2" type="search" placeholder="Search Center" aria-label="Search">
-                <button class="btn btn-outline-scess my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <button type="submit" class="text-success ml-5 mr-5">Sign Out</button>
-          </div>
-        </div>
-      </nav>
-  
-        
-       
-         <!--create new event section-->
-         <section id="create-section">
-            <div class="container">
-              <div class="row">
-                  <div class="col-md-6 mx-auto">
-                      <h4 class="text-center text-success">Create New Event</h4>
-                      
-                      <!--form-->
-                      <form>
-                          <div class="form-group">
-                              <label for="eventName">Event Name</label>
-                                <input type="text" class="form-control" id="eventName">
-                          </div>
-                          <div class="form-group">
-                              <label for="eventType">Event Type</label>
-                              <select class="form-control" id="eventType">
-                                <option>Social Event</option>
-                                <option>Business Event</option>
-                                <option>Religious Event</option>
-                                <option>Others</option>
-                              </select>
-                          </div>
-                          <div class="form-group">
-                              <label for="eventName">Event Description</label>
-                                <input type="text" class="form-control" id="eventName">
-                          </div>
-                          <div class="form-group">
-                              <label for="eventType">Location</label>
-                              <select class="form-control" id="eventType">
-                                <option>Lagos</option>
-                              </select>
-                          </div>
-                          <div class="form-group">
-                              <label for="eventType">Local Government(LG)</label>
-                              <select class="form-control" id="eventType">
-                                <option>Amuwo Odofin</option>
-                                <option>Badagry</option>
-                                <option>Mile 2</option>
-                                <option>Okoko</option>
-                              </select>
-                          </div>
-                          <div class="form-group">
-                              <label for="exampleInputPassword1">Event Date</label>
-                              <div class='input-group date' id='datetimepicker1'>
-                                  <input type='text' class="form-control" />
-                                  <span class="input-group-addon">
-                                      <span class="fa fa-calendar"></span>
-                                  </span>
-                              </div>
-                          </div>
-                          <div class="form-group">
-                              <label for="exampleInputPassword1">Event Start Time</label>
-                              <input type="text" class="form-control" id="eventType" placeholder="Password">
-                          </div>
-                          <div class="form-group">
-                              <label for="exampleInputPassword1">Event End Time</label>
-                              <input type="text" class="form-control" id="eventType" placeholder="Password">
-                          </div>
-                          <div class="form-group">
-                              <label for="eventType">Estimated Attendees</label>
-                              <select class="form-control" id="eventType">
-                                <option>50-100</option>
-                                <option>100-500</option>
-                                <option>500-1000</option>
-                              </select>
-                          </div>
-                          <div class="form-group">
-                              <label for="eventName">Centers Available</label>
-                              <select class="form-control" id="eventType">
-                                  <option>Available Centers...</option>
-                                  <option>Dianond Center</option>
-                                  <option>Silver Center</option>
-                                </select>
-                          </div>
 
-                          
-                          <button type="submit" class="btn btn-success">Submit</button>
-                        </form>
-                      
-                  </div> 
-                 
-              </div>
-              
-            </div>
-          </section>
-       
+<head>
+  <title>EventManager...We Plan...We Deliver</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--custom css-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!--font awesome-->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body id="home">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="mainNav" style="background-color:seagreen">
+    <div class="container">
+      <a class="navbar-brand " href="#home">EventManager</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="#home">Create Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#all-centers-section">All Events</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-controucl mr-sm-2" type="search" placeholder="Search Center" aria-label="Search">
+          <button class="btn btn-outline-scess my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <button type="submit" class="text-success ml-5 mr-5">Sign Out</button>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!--create new center section-->
+  <section id="new-center-section mt-5 ">
+    <div class="container bg-white  text-dark mt-5">
+      <div class="row">
+        <div class="col-md-6 mx-auto mt-5">
+          <h4 class="text-center text-success ">Create New Event</h4>
           
-        
-        <!--my-event-section-->
-        <section id="my-event-section">
-            <div class="container">
-              <div class="row">
-                  <div class="col-md-6 mx-auto">
-                      <h3 class="text-center">My Events</h3>
-                      <hr>
-                      
-                      <!--cards-->
-                      <div class="card">
-                          <h4 class="card-header text-success">John and Mary Wedding</h4>
-                          <div class="card-body">
-                            <h3 class="card-title text-success">Social Event</h3>
-                            <p class="card-text text-success">Joyous wedding ceremony of Mary and John.</p>
-                            <p class="card-text text-success">Lagos.<a href="#"class="text-success">View more.</a></p>
-                            <a href="#" class="btn btn-success">Modify</a>
-                            <a href="#" class="btn btn-success">Delete</a>
-                          </div>
-                        </div>
-                      <hr>
-                      <div class="card">
-                          <h4 class="card-header text-success">Andela Conference</h4>
-                          <div class="card-body">
-                            <h3 class="card-title text-success">Business Event</h3>
-                            <p class="card-text text-success">Andela annual conference tagged "The future" to equip and train employess on using latest technologies.</p>
-                            <p class="card-text text-success">Lagos.<a href="#"class=" text-success">View more.</a></p>
-                            <a href="#" class="btn btn-success">Modify</a>
-                            <a href="#" class="btn btn-success">Delete</a>
-                          </div>
-                        </div>
-                        <hr>
-                        <div class="card">
-                            <h4 class="card-header text-success">Glorious church praise consert</h4>
-                            <div class="card-body">
-                              <h3 class="card-title text-success">Religious Event</h3>
-                              <p class="card-text text-success">a praise concert to lead people to Godgo.</p>
-                              <p class="card-text text-success">Lagos.<a href="#"class="text-success">View more.</a></p>
-                              <a href="#" class="btn btn-success">Modify</a>
-                              <a href="#" class="btn btn-success">Delete</a>
-                            </div>
-                          </div>
-                    </div>      
-                 </div>
+          <!--form-->
+          <form>
+            <div class="form-group">
+              <label for="eventName">Event Name</label>
+              <input type="text" class="form-control" id="eventName">
+            </div>
+            <div class="form-group">
+              <label for="eventType">Event Type</label>
+              <select class="form-control" id="eventType">
+                <option>Social Event</option>
+                <option>Business Event</option>
+                <option>Religious Event</option>
+                <option>Others</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="eventName">Event Description</label>
+              <input type="text" class="form-control" id="eventName">
+            </div>
+            <div class="form-group">
+              <label for="eventType">Location</label>
+              <select class="form-control" id="eventType">
+                <option>Lagos</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="eventType">Local Government(LG)</label>
+              <select class="form-control" id="eventType">
+                <option>Amuwo Odofin</option>
+                <option>Badagry</option>
+                <option>Mile 2</option>
+                <option>Okoko</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Event Date</label>
+              <div class='input-group date' id='datetimepicker1'>
+                <input type='text' class="form-control" />
+                <span class="input-group-addon">
+                  <span class="fa fa-calendar"></span>
+                </span>
               </div>
-          </section>
-          <footer class="col-md-12" style="margin-top:10px;">
-            <div><h5>copyright@EventManager 2017</h5></div>
-          </footer>
-    
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Event Start Time</label>
+              <input type="text" class="form-control" id="eventType" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Event End Time</label>
+              <input type="text" class="form-control" id="eventType" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="eventType">Estimated Attendees</label>
+              <select class="form-control" id="eventType">
+                <option>50-100</option>
+                <option>100-500</option>
+                <option>500-1000</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="eventName">Centers Available</label>
+              <select class="form-control" id="eventType">
+                <option>Available Centers...</option>
+                <option>Dianond Center</option>
+                <option>Silver Center</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <script src="js/jquery-3.2.1.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+
+
+  <!--my-event-section-->
+  <section id="my-event-section">
+    <div class="container bg-white text-dark pt-5 pb-5">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <h3 class="text-center">My Events</h3>
+          <hr>
+
+          <!--cards-->
+          <div class="card">
+            <h4 class="card-header text-success">John and Mary Wedding</h4>
+            <div class="card-body">
+              <h3 class="card-title text-success">Social Event</h3>
+              <p class="card-text text-success">Joyous wedding ceremony of Mary and John.</p>
+              <p class="card-text text-success">Lagos.
+                <a href="#" class="text-success">View more.</a>
+              </p>
+              <a href="modifyevent.html" class="btn btn-success">Modify</a>
+              <a href="#" class="btn btn-success">Delete</a>
+            </div>
+          </div>
+          <hr>
+          <div class="card">
+            <h4 class="card-header text-success">Andela Conference</h4>
+            <div class="card-body">
+              <h3 class="card-title text-success">Business Event</h3>
+              <p class="card-text text-success">Andela annual conference tagged "The future" to equip and train employess on using latest technologies.</p>
+              <p class="card-text text-success">Lagos.
+                <a href="#" class=" text-success">View more.</a>
+              </p>
+              <a href="modifyevent.html" class="btn btn-success">Modify</a>
+              <a href="#" class="btn btn-success">Delete</a>
+            </div>
+          </div>
+          <hr>
+          <div class="card">
+            <h4 class="card-header text-success">Glorious church praise consert</h4>
+            <div class="card-body">
+              <h3 class="card-title text-success">Religious Event</h3>
+              <p class="card-text text-success">a praise concert to lead people to Godgo.</p>
+              <p class="card-text text-success">Lagos.
+                <a href="#" class="text-success">View more.</a>
+              </p>
+              <a href="modifyevent.html" class="btn btn-success">Modify</a>
+              <a href="#" class="btn btn-success">Delete</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer section-->
+  <footer class="col-md-12" style="margin-top:10px;">
+    <div>
+      <h5>copyright@EventManager 2017</h5>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
