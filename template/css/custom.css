@@ -33,16 +33,10 @@ body{
     opacity: 0.9;
     
 }
-<<<<<<< HEAD
-
-   
-
-=======
 .card-body{
     opacity: 0.8;
    
 }
->>>>>>> feature(event): fix template
 
 
 .fa{
@@ -59,29 +53,15 @@ body{
     padding-top:150px;
     padding-bottom:150px;
 }
-<<<<<<< HEAD
-#create-section{
-=======
 #new-event-section{
->>>>>>> feature(event): fix template
     background-color:white;
     color:black;
     padding-top:150px;
     padding-bottom:150px;
 }
-<<<<<<< HEAD
-#my-event-section{
-    background:url('../images/background1.jpg')no-repeat;
-    min-height:800px;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom:100px;
-}
-=======
 #new-center-section{
     background-color:white;
     color:black;
     padding-top:150px;
     padding-bottom:150px;
 }
->>>>>>> feature(event): fix template
