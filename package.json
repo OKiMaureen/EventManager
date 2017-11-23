@@ -1,0 +1,23 @@
+{
+  "name": "eventmanager",
+  "version": "1.0.0",
+  "description": "Eventmanager is an Andela Bootcamp cycle 29 challenge  app that will help you accept applications to use your center / facilities, and will either decline events when the proposed day is already taken, or suggest an available day",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OKiMaureen/EventManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OKiMaureen/EventManager/issues"
+  },
+  "homepage": "https://github.com/OKiMaureen/EventManager#readme"
+}
