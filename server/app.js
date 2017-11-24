@@ -1,41 +1,39 @@
-const express = require('express');
-const data = require('./model/database.js');
+//Importing express
+import express from "express";
 
-// requiring bodyparser
-const bodyParser = require('body-parser');
+//Importing  database: data
+import eventRoute from './controller/eventRouter' ;
 
-//instantiating express
+//Importing database
+import centerRoute from './controller/centerRouter' ;
+
+
+// Requiring bodyparser
+import bodyParser from 'body-parser';
+
+//Instatiating router
+const router = express.Router();
+
+
+
+//Instantiating express
 const app = new express();
 
-// registering middlewear bodyparser
+// Registering middlewear bodyparser
 app.use(bodyParser.json());
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
+//Directs routre to event database
+app.use(router.use('/api/v1/events', eventRoute ))
 
-// route to get all centers : get route
-app.get('/api/v1/centers', (req, res) => {
+//Directs route to center databsae
+app.use(router.use('/api/v1/centers', centerRoute ))
 
-	res.send({ centers: data.centers });
 
-});
 
-//route to add a new center : post route
-app.post('/api/v1/centers', (req, res) => {
-	
-	data.centers.push({
-	id: data.centers.length + 1,
-	name: req.body.name,
-	address: req.body.address,
-	cost: req.body.cost,
-	capacity: req.body.capacity,
-	facilities: req.body.facilities
-	
-		});
-res.send({  centers: data.centers });
-	
-});
-//starting up the server
+
+//Starting up the server
 app.listen(3000, () => {
 console.log('server running');
 
