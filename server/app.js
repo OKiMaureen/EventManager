@@ -15,6 +15,8 @@ app.get('*', (req, res) => res.status(200).send({
   message: 'Welcome',
 }));
 
-app.listen(port);
+app.listen (3000,() =>{
 
+console.log ('server is working')
+});
 module.exports = app;
