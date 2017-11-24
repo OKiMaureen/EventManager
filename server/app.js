@@ -1,22 +1,42 @@
 const express = require('express');
+const data = require('./model/database.js');
+
+// requiring bodyparser
 const bodyParser = require('body-parser');
-const port = 8000;
 
-// Set up the express app
-const app = express();
+//instantiating express
+const app = new express();
 
-
-// Parse incoming requests data (https://github.com/expressjs/body-parser)
+// registering middlewear bodyparser
 app.use(bodyParser.json());
+
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Setup a default catch-all route that sends back a welcome message in JSON format.
-app.get('*', (req, res) => res.status(200).send({
-  message: 'Welcome',
-}));
 
-app.listen (3000,() =>{
+// route to get all centers : get route
+app.get('/api/v1/centers', (req, res) => {
 
-console.log ('server is working')
+	res.send({ centers: data.centers });
+
 });
-module.exports = app;
+
+//route to add a new center : post route
+app.post('/api/v1/centers', (req, res) => {
+	
+	data.centers.push({
+	id: data.centers.length + 1,
+	name: req.body.name,
+	address: req.body.address,
+	cost: req.body.cost,
+	capacity: req.body.capacity,
+	facilities: req.body.facilities
+	
+		});
+res.send({  centers: data.centers });
+	
+});
+//starting up the server
+app.listen(3000, () => {
+console.log('server running');
+
+});
