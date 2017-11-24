@@ -4,11 +4,23 @@
   "description": "Eventmanager is an Andela Bootcamp cycle 29 challenge  app that will help you accept applications to use your center / facilities, and will either decline events when the proposed day is already taken, or suggest an available day",
   "main": "index.js",
   "dependencies": {
+    "babel-watch": "^2.0.7",
     "bootstrap": "^4.0.0-alpha.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "name": "node ./server/lib/controller/app.js"
   },
   "repository": {
     "type": "git",
