@@ -1,17 +1,25 @@
-const database ={
-"user": [
-    {
-        id:0,
-        eventName:"maureen",
-        eventType:"Golden Center",
-        eventDescription:"hosting the wedding ceremony of mary and john",
-        eventLocation:"Lagos",
-        eventDate:"12/11/34",
-        eventStartTime: "12pm",
-        eventEndTime:"4pm",
-        estimatedAttendees:400,
-        centersAvailable:"1"
 
-    }
-]
-}
+
+
+const data = {
+     centers: [{
+			id: 1,
+			name: "Golden center",
+		  address: "3rd Avenue,Festac",
+			capacity: "50-100",
+		  cost: 100000,
+		  facilities: "air conditioner, projector, standby generator"
+		 },
+		 {
+			
+			id: 2,
+			name: "Silver center",
+			address: "Bariga",
+			capacity: "200-300 ",
+			cost: 29000,
+			facilities: "air conditioner, standby generator"
+		}
+		]
+
+		};
+		module.exports = data;
