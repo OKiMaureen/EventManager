@@ -1,18 +1,18 @@
 
 
-
-const data = {
+// centers json object
+const centerDatabase = {
      centers: [{
-			id: 1,
+			id: 0,
 			name: "Golden center",
-		  address: "3rd Avenue,Festac",
+		    address: "3rd Avenue,Festac",
 			capacity: "50-100",
-		  cost: 100000,
-		  facilities: "air conditioner, projector, standby generator"
+		    cost: 100000,
+		    facilities: "air conditioner, projector, standby generator"
 		 },
 		 {
 			
-			id: 2,
+			id: 1,
 			name: "Silver center",
 			address: "Bariga",
 			capacity: "200-300 ",
@@ -22,4 +22,6 @@ const data = {
 		]
 
 		};
-		module.exports = data;
+		 
+	     
+		export default centerDatabase;
