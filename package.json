@@ -24,7 +24,6 @@
   "scripts": {
     "start": "nodemon --watch server --exec babel-node server/app.js",
     "test": "mocha ./server/test/ --exit --compilers js:babel-register",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "coveralls": "jscoverage lib && YOURPACKAGE_COVERAGE=1 nodeunit --reporter=lcov test | coveralls",
     "name": "node ./server/lib/controller/app.js"
   },
