@@ -3,8 +3,14 @@ import eventController from './controllers/eventController';
 // Import center controller 
 import centerController from './controllers/centerController';
 
+
 const routes = (app) => {
-  // get of all centers
+  app.get('/', (req, res) => {
+    res.status(200)
+      .send('Welcome to the eventmanager api');
+  });
+
+  // get of all events
   app.get('/api/v1/events', eventController.getEvent);
 
   // creates an event
