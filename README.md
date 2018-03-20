@@ -1,4 +1,7 @@
 # EventManager
+[![Build Status](https://travis-ci.org/OKiMaureen/EventManager.svg?branch=ft-api-test)](https://travis-ci.org/OKiMaureen/EventManager) [![Coverage Status](https://coveralls.io/repos/github/seunzone/weConnect/badge.svg?branch=api-fake-data)](https://coveralls.io/github/OKiMaureen/EventManager.svg?branch=ft-api-test) [![Maintainability](https://api.codeclimate.com/v1/badges/a5a45a1da4b3a7209757/maintainability)](https://codeclimate.com/github/OKiMaureen/EventManager/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a5a45a1da4b3a7209757/test_coverage)](https://codeclimate.com/github/OKiMaureen/EventManager/test_coverage)
+
+
 Eventmanager is an Andela Bootcamp cycle 29 challenge  app that will help you accept applications to use your center / facilities, and will either decline events when the proposed day is already taken, or suggest an available day
 
 ### Prerequisites
